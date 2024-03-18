@@ -51,6 +51,8 @@ clearRect(x, y, width, height)
 
 The clearRect() method sets the pixels in a rectangular area to transparent black (rgb(0 0 0 / 0%)). The rectangle's top-left corner is at (x, y), and its size is specified by width and height.
 
-## ToDo: Add a sound alert when a person is detected
+## Adding a sound alert when a person is detected
 
-34:09
+```shell
+npm i lodash
+```

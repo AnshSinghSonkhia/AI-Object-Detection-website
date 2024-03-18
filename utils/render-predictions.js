@@ -1,4 +1,4 @@
-//import {throttle} from "lodash";
+import { throttle } from "lodash";
 
 export const renderPredictions = (predictions, ctx) => {
     // Clear the canvas for new predictions. Rectangle is drawn on the canvas. and the label is added to the rectangle.
@@ -37,5 +37,14 @@ export const renderPredictions = (predictions, ctx) => {
         ctx.fillText(prediction.class, x, y);
 
         // ToDo: Add a sound alert when a person is detected
+
+        if(isPerson){
+            playAudio();    // play the audio when a person is detected
+        }
     });
 };
+
+const playAudio = throttle(() => {
+    const audio = new Audio("/Sigma-Alert2.mp3");
+    audio.play();
+}, 3000);
