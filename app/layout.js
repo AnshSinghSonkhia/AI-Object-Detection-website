@@ -2,6 +2,7 @@
 
 import { DM_Sans } from 'next/font/google';
 import "./globals.css";
+import Navbar from '@/components/Navbar';
 
 
 const dmSans = DM_Sans({
@@ -20,7 +21,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body suppressHydrationWarning className={dmSans.className}>{children}</body>
+        <body suppressHydrationWarning className={dmSans.className}>
+            <Navbar/>
+            {children}
+        </body>
       {/* <body suppressHydrationWarning className={inter.className}>{children}</body> */}
     </html>
   );

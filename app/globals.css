@@ -27,14 +27,44 @@ body {
 }
 
 @layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
-  .gradient {
-    @apply bg-gradient-to-b from-white via-gray-300 to-gray-600;
-  }
-  .gradient-title {
-    @apply text-transparent gradient bg-clip-text;
-  }
+    /* Hide scrollbar for Chrome, Safari and Opera */
+    .no-scrollbar::-webkit-scrollbar {
+        display: none;
+    }
+    /* Hide scrollbar for IE, Edge and Firefox */
+    .no-scrollbar {
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+    }
+
+    
+    .text-balance {
+        text-wrap: balance;
+    }
+    .gradient {
+        @apply bg-gradient-to-b from-white via-gray-300 to-gray-600;
+    }
+    .gradient-title {
+        @apply text-transparent gradient bg-clip-text;
+    }
+    .gradient2 {
+        @apply bg-gradient-to-br from-white via-[#e4a3ff] to-[#4000ff];
+    }
+    .gradient-title2 {
+        @apply text-transparent gradient2 bg-clip-text;
+    }
+
+    .gradient3 {
+        @apply bg-gradient-to-br from-[#4776E6]  to-[#8E54E9];
+    }
+    .gradient-title3 {
+        @apply text-transparent gradient3 bg-clip-text;
+    }
+    .gradient4{
+        @apply bg-gradient-to-br from-[#acb6e5]  to-[#86fde8];
+    }
+    .gradient-title4 {
+        @apply text-transparent gradient4 bg-clip-text;
+    }
 }
 
