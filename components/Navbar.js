@@ -9,18 +9,18 @@ const Navbar = () => {
           <Link href="/">
             <h1 className="flex items-center justify-center gap-3">
               <img src="/icon.png" alt="Logo" className="h-8" />
-              <p className="text-2xl font-medium gradient-title">AI Burglar Detector</p>
+              <p className="text-2xl font-medium transition-all transform gradient-title hover:gradient-title4">AI Burglar Detector</p>
             </h1>
           </Link>
         </div>
-        <div className="flex">
+        <div className="flex items-center justify-center">
           <Link href="/about">
-            <p className="px-3 py-2 font-medium rounded-md text-md hover:text-white gradient-title">
+            <p className="px-3 py-2 text-xl font-medium transition-all transform rounded-md gradient-title hover:gradient-title4">
               About
             </p>
           </Link>
           <Link href="/developer">
-            <p className="px-3 py-2 font-medium rounded-md text-md gradient-title hover:text-white">
+            <p className="px-3 py-2 text-xl font-medium transition-all transform rounded-md gradient-title hover:gradient-title4">
               Developer
             </p>
           </Link>

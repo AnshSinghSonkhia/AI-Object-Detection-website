@@ -72,7 +72,7 @@ const ObjectDetection = () => {
     <div className="mt-8">
       {isLoading ? (
         <div className="flex items-center justify-center gradient-text">
-          <p className="text-xl font-bold tracking-tighter text-center md:text-4xl gradient-title">
+          <p className="text-xl font-bold tracking-tighter text-center md:text-4xl gradient-title h-28">
             Loading AI Model...
           </p>
         </div>
