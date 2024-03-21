@@ -4,10 +4,10 @@ const page = () => {
   return (
     <main className="flex flex-col items-center min-h-screen p-8 no-scrollbar">
       <div className="flex flex-col items-center">
-        <h1 className="text-3xl font-black tracking-tight text-center h-28 gradient-title4 md:text-6xl lg:text-8xl md:px-6">
+        <h1 className="text-2xl font-black tracking-tight text-center sm:text-3xl sm:h-10 md:h-28 gradient-title md:text-6xl lg:text-8xl">
           About Burglar AI
         </h1>
-        <p className="pt-2 text-sm font-bold tracking-tighter text-center md:text-xl gradient-title4">
+        <p className="pt-2 text-sm font-bold tracking-tighter text-center md:text-xl gradient-title">
           It is an Object detection AI Model using Tensorflow to detect burglar
           & raise alarm.
         </p>
