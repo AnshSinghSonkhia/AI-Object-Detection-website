@@ -4,7 +4,8 @@
   <!-- <code><img height="30" src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB"></code> -->
   <code><img height="30" src="https://img.shields.io/badge/JavaScript-111111?style=for-the-badge&logo=javascript&logoColor=F7DF1E"></code>
   <code><img height="30" src="https://img.shields.io/badge/Tensorflow-111111?style=for-the-badge&logo=tensorflow&logoColor=orange"></code>
-  <code><img height="30" src="https://img.shields.io/badge/React%20JS-111111?style=for-the-badge&logo=react&logoColor=61DAFB"></code>
+  <code><img height="30" src="https://img.shields.io/badge/React-111111?style=for-the-badge&logo=react&logoColor=61DAFB"></code>
+  <code><img height="30" src="https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white"></code>
   <code><img height="30" src="https://img.shields.io/badge/CSS3-20232A?style=for-the-badge&logo=css3&logoColor=blue"></code>
   <code><img height="30" src="https://img.shields.io/badge/Tailwind%20CSS-20232A?style=for-the-badge&logo=tailwindcss&logoColor=blue"></code>
 <br>
