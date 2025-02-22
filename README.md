@@ -10,6 +10,10 @@
   <code><img height="30" src="https://img.shields.io/badge/Tailwind%20CSS-20232A?style=for-the-badge&logo=tailwindcss&logoColor=blue"></code>
 <br>
 
+## Screenshot
+![Burglar Found on Camera](https://github.com/user-attachments/assets/918e1e71-9e45-450c-b1e9-dd9dc080e987)
+
+
 ## Getting Started
 
 First, run the development server:
